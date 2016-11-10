@@ -1,0 +1,56 @@
+
+.navbar {
+	float:left;
+	display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+div {
+	text-align: center;
+	/*font-famly: "Lucida Console", Monaco, monospace;*/
+	font-family: 'Dosis', sans-serif;
+}
+
+h1{
+	font-family: Arial;
+	font-weight:20px;
+}
+
+@media all and (min-width: 961px) and (max-width: 481px){
+	body {
+		background: #000;
+	}
+
+
+}
+
+.imagegallery img {
+	width: 350px;
+    height: 300px;
+}
+
+p {
+	font-size: 20px;
+}
+
+.photos {
+	border:4px solid white;
+}
+
+#listitems {
+	width:280px;
+	border:1px solid black;
+	margin:0 auto;
+	text-align: left;
+	font-size: 20px;
+}
+
+/*index css*/
