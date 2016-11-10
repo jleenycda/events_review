@@ -1,11 +1,32 @@
+/*index html styling*/
 
-.navbar {
-	float:left;
-	display: inline-block;
+ul .topnav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    list-style-type: none;
+}
+
+ul#mytopnav {
+	list-style-type: none;
+}
+
+ul.topnav li {
+	float: left;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
 }
 
 li a {
-    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -24,33 +45,18 @@ h1{
 	font-weight:20px;
 }
 
-@media all and (min-width: 961px) and (max-width: 481px){
+/*photos html styling*/
+
+/*@media all and (min-width: 961px) and (max-width: 481px){
 	body {
 		background: #000;
 	}
-
-
-}
+}*/
 
 .imagegallery img {
 	width: 350px;
     height: 300px;
 }
 
-p {
-	font-size: 20px;
-}
 
-.photos {
-	border:4px solid white;
-}
 
-#listitems {
-	width:280px;
-	border:1px solid black;
-	margin:0 auto;
-	text-align: left;
-	font-size: 20px;
-}
-
-/*index css*/
