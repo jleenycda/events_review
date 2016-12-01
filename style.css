@@ -31,6 +31,18 @@ ul.topnav li {
 	margin-right:auto;
 }
 
+div {
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size:2em;
+}
+
+.halloween {
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 #listitems {
 	list-style-type: none;
 	border: solid white 2px;
@@ -43,16 +55,6 @@ li a {
     list-style-type: none;
     text-decoration: none;
     display: inline-block;
-}
-
-div {
-	text-align: center;
-	font-family: 'Dosis', sans-serif;
-	font-size:2em;
-}
-
-.halloween {
-	width:500px;
 }
 
 p {
@@ -82,8 +84,6 @@ h1 {
 
 /*contact html styling*/
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 #feedback-page{
 	text-align:center;
 }
@@ -112,7 +112,7 @@ h1 {
 
 .feedback-input {
 	color:#3c3c3c;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Dosis', Arial, sans-serif;
   font-weight:500;
 	font-size: 18px;
 	border-radius: 0;
@@ -154,7 +154,7 @@ h1 {
 	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
 	background-size: 30px 30px;
 	background-position: 8px 5px;
-  background-position: 11px 8px;
+    background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
@@ -168,7 +168,7 @@ h1 {
 #email:focus{
 	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
 	background-size: 30px 30px;
-  background-position: 11px 8px;
+    background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
@@ -192,7 +192,7 @@ input:focus, textarea:focus {
 }
 
 #button-blue{
-	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-family: 'Dosis', Arial, Helvetica, sans-serif;
 	float:left;
 	width: 100%;
 	border: #fbfbfb solid 4px;
@@ -205,8 +205,8 @@ input:focus, textarea:focus {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+    margin-top:-4px;
+    font-weight:700;
 }
 
 #button-blue:hover{
@@ -234,15 +234,6 @@ input:focus, textarea:focus {
   background-color:white;
 }
 
-@media only screen and (max-width: 580px) {
-	#form-div{
-		left: 3%;
-		margin-right: 3%;
-		width: 88%;
-		margin-left: 0;
-		padding-left: 3%;
-		padding-right: 3%;
-	}
-}
+
 
 
